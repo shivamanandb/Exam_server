@@ -59,7 +59,7 @@ public class UserController {
 
     @GetMapping("/test")
     public String test() {
-        return "Welcome to backend api of ExamPortal";
+        return "Welcome to backend api of ExamPortal Application";
     }
 
     // delete the user by id
