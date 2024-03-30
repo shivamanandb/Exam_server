@@ -20,8 +20,8 @@ import com.exam.examserver.models.UserRole;
 import com.exam.examserver.service.UserService;
 
 @RestController
-@RequestMapping("/user")
 @CrossOrigin("*")
+@RequestMapping("/user")
 public class UserController {
 
     @Autowired
